@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'navigation_with_mapbox'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'Add Turn By Turn Navigation to Your Flutter Application Using MapBox. '
   s.description      = <<-DESC
   Add Turn By Turn Navigation to Your Flutter Application Using MapBox. 
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '11.0'
-  s.dependency 'MapboxCoreNavigation', '~> 2.7'
-  s.dependency 'MapboxNavigation', '~> 2.7'
+  s.platform = :ios, '15.0'
+  s.dependency 'MapboxCoreNavigation', '~> 2.19.0'
+  s.dependency 'MapboxNavigation', '~> 2.19.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

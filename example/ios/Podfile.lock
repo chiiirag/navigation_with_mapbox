@@ -1,0 +1,77 @@
+PODS:
+  - Flutter (1.0.0)
+  - MapboxCommon (23.11.2)
+  - MapboxCoreMaps (10.19.2):
+    - MapboxCommon (~> 23.11)
+  - MapboxCoreNavigation (2.19.0):
+    - MapboxDirections (~> 2.14)
+    - MapboxNavigationNative (< 207.0.0, >= 206.0.1)
+  - MapboxDirections (2.14.0):
+    - Polyline (~> 5.0)
+    - Turf (~> 2.8.0)
+  - MapboxMaps (10.19.1):
+    - MapboxCommon (= 23.11.2)
+    - MapboxCoreMaps (= 10.19.2)
+    - MapboxMobileEvents (= 2.0.0)
+    - Turf (= 2.8.0)
+  - MapboxMobileEvents (2.0.0)
+  - MapboxNavigation (2.19.0):
+    - MapboxCoreNavigation (= 2.19.0)
+    - MapboxMaps (~> 10.18)
+    - MapboxSpeech (~> 2.0)
+    - Solar-dev (~> 3.0)
+  - MapboxNavigationNative (206.1.0):
+    - MapboxCommon (~> 23.10)
+  - MapboxSpeech (2.1.1)
+  - navigation_with_mapbox (0.0.8):
+    - Flutter
+    - MapboxCoreNavigation (~> 2.19.0)
+    - MapboxNavigation (~> 2.19.0)
+  - Polyline (5.1.0)
+  - Solar-dev (3.0.1)
+  - Turf (2.8.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - navigation_with_mapbox (from `.symlinks/plugins/navigation_with_mapbox/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxCoreNavigation
+    - MapboxDirections
+    - MapboxMaps
+    - MapboxMobileEvents
+    - MapboxNavigation
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar-dev
+    - Turf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  navigation_with_mapbox:
+    :path: ".symlinks/plugins/navigation_with_mapbox/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  MapboxCommon: 873b75dd0e8c5d7029e0c849437eba365f4887e5
+  MapboxCoreMaps: 35685edba03e44468aed57c3dfd7f8795edafda8
+  MapboxCoreNavigation: 3be9990fae3ed732a101001746d0e3b4234ec023
+  MapboxDirections: 3d468327d3e2ac52ae1be2176004976580cf6fd9
+  MapboxMaps: 05822ab0ee74f7d626e6471572439afe35c1c116
+  MapboxMobileEvents: d044b9edbe0ec7df60f6c2c9634fe9a7f449266b
+  MapboxNavigation: da9cf3d773ed5b0fa0fb388fccdaa117ee681f31
+  MapboxNavigationNative: ef4ef55f669336b689a8941388a4b65796d1337b
+  MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
+  navigation_with_mapbox: 37ca763710cb943d96026f0896f99926203989c2
+  Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Turf: aa2ede4298009639d10db36aba1a7ebaad072a5e
+
+PODFILE CHECKSUM: 7cae9226378526390b184ba49a8be32e4d1d9143
+
+COCOAPODS: 1.16.2
